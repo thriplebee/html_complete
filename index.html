@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Amazing blog site by thriplebee">
+        <meta name="keywords" content="web design, web development, blogging">
+        <title>HTML5 Crash Course By ThripleBee</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/scripts.js"></script>
+    </head>
+
+    <body>
+
+         <!-- Linking -->
+        <a href="./blog.html">Blog Page</a>
+        
+        <!-- Headings -->
+        <h1>Heading One</h1>
+        <h2><marquee behavior="" direction="right">Heading Two</marquee></h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <hr>
+
+        <!-- Paragraph -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur <em>adipisicing elit</em>. Doloribus sed in consectetur, dolor magnam velit optio sequi excepturi hic aliquid illum ex repellat quae, consequuntur pariatur ad eum nesciunt porro.
+            Lorem ipsum dolor sit <strong>amet consectetur adipisicing elit</strong>. Doloribus sed in consectetur, dolor magnam velit optio sequi excepturi hic aliquid illum ex repellat quae, consequuntur pariatur ad eum nesciunt porro.
+            Lorem ipsum dolor sit amet <b>consectetur adipisicing elit</b>. Doloribus sed in consectetur, dolor magnam velit <u>optio sequi excepturi</u> hic aliquid illum ex repellat quae,<br><br><br>consequuntur <i>pariatur ad</i> eum nesciunt porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed in consectetur, dolor magnam velit optio sequi excepturi <a href="http://google.lk" target="_blank">feb  fdfgdfg</a> ex repellat quae, consequuntur pariatur ad eum nesciunt porro.
+        </p>
+
+        <hr>
+
+        <!-- List -->
+        <ul type="circle">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5
+                <ul>
+                    <li>List Item 7</li>
+                    <li>List Item 8</li>
+                    <li>List Item 9</li>
+                </ul>
+            </li>
+            <li>List Item 6</li>
+        </ul>
+
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+        </ol>
+
+        <hr>
+
+        <!-- Table -->
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kasun Parasanna</td>
+                    <td>kasun@gmail.com</td>
+                    <td>Horana</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Namal Danushka</td>
+                    <td>namal@gmail.com</td>
+                    <td>Kalutara</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>Dasun Sandaruwan</td>
+                    <td>dasun@gmail.com</td>
+                    <td>Panadura</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Sanduni Kawshalya</td>
+                    <td>sanduni@gmail.com</td>
+                    <td>Nugegoda</td>
+                    <td>24</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- Forms -->
+        <form action="./php/process.php" method="POST">
+            <div>
+                <label>First Name : </label>
+                <input type="text" name="first-name" required>
+            </div>
+            <br>
+
+            <div>
+                <label>Last Name : </label>
+                <input type="text" name="last-name" required>
+            </div>
+            <br>
+
+            <div>
+                <label>Email : </label>
+                <input type="email" name="email" placeholder="Type your correct email address..." required>
+            </div>
+            <br>
+
+            <div>
+                <label>Message : </label>
+                <textarea name="msg" id="" cols="50" rows="10" required></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label>Gender : </label>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label>Age : </label>
+                <input type="number" name="age" required>
+            </div>
+            <br>
+
+            <div>
+                <label>Birthday : </label>
+                <input type="date" name="bday" required>
+            </div>
+            <br>
+
+            <div>
+                <label>Profile Picture : </label>
+                <input type="file" name="imgfile" required>
+            </div>
+            <br>
+
+            <div>
+                <label>Favourite Food : </label>
+                <input type="checkbox" name="apple" value="apple"> <label>Apple</label>
+                <input type="checkbox" name="chocolate" value="chocolate"> <label>Chocolate</label>
+                <input type="checkbox" name="cake" value="cake"> <label>Cake</label>
+            </div>
+            <br>
+
+            <div>
+                <label>User Type : </label>
+                <input type="radio" id="static" name="usertype" value="static"> <label>Static</label>
+                <input type="radio" id="dynamic" name="usertype" value="dynamic"> <label>Dynamic</label>
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Submit" name="submit">
+                <!-- <button type="submit">Submit</button> -->
+            </div>
+        </form>
+
+        <hr>
+
+        <!-- Buttons -->
+        <br><br>
+        <button>Click Me!</button>
+        <br><br>
+
+        <hr>
+
+        <!-- Images -->
+        <a href="./img/img1.png" target="_blank">
+            <img src="./img/img1.png" alt="This is an image" height="200" width="200">
+        </a>
+
+        <!-- Quatations -->
+        <blockquote cite="http://google.lk">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat, asperiores expedita velit assumenda eaque, alias a dolores excepturi reiciendis iusto facere! Tempora reiciendis cupiditate officiis! Omnis nihil rem magni!
+        </blockquote>
+
+        <hr>
+
+        <!-- Abbreviation -->
+        <p>
+            The <abbr title="World Wide Web">WWW</abbr> is one of amazing things that discovered ever.
+        </p>
+
+        <hr>
+
+        <!-- Section -->
+        <section>
+            <p>HTML Crash Course By <cite>ThripleBee</cite></p>
+        </section>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <p>Copyright &copy; 2020</p>
+        </footer>
+    </body>
+</html>
